@@ -1,0 +1,16 @@
+ok 1 - spec/SpecRunner.html -  PhantomJS 1.9 - Convert library Distance converter converts inches to centimeters.
+ok 2 - spec/SpecRunner.html -  PhantomJS 1.9 - Convert library Distance converter converts centimeters to yards.
+ok 3 - spec/SpecRunner.html -  PhantomJS 1.9 - Convert library Volume converter converts litres to gallons.
+ok 4 - spec/SpecRunner.html -  PhantomJS 1.9 - Convert library Volume converter converts gallons to cups.
+ok 5 - spec/SpecRunner.html -  PhantomJS 1.9 - Convert library throws an error when passed an unknown from-unit.
+ok 6 - spec/SpecRunner.html -  PhantomJS 1.9 - Convert library throws an error when passed an unknown to-unit.
+ok 7 - spec/SpecRunner.html -  PhantomJS 1.9 - Player should be able to play a Song.
+ok 8 - spec/SpecRunner.html -  PhantomJS 1.9 - Player when song has been paused should indicate that the song is currently paused.
+ok 9 - spec/SpecRunner.html -  PhantomJS 1.9 - Player when song has been paused should be possible to resume.
+ok 10 - spec/SpecRunner.html -  PhantomJS 1.9 - Player tells the current song if the user has made it a favorite.
+ok 11 - spec/SpecRunner.html -  PhantomJS 1.9 - Player #resume should throw an exception if song is already playing.
+
+1..11
+# tests 11
+# pass 11
+# fail 0

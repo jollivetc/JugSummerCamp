@@ -1,0 +1,179 @@
+npm WARN package.json awesome@0.0.0 No repository field.
+npm WARN package.json awesome@0.0.0 No readme data.
+npm http GET https://registry.npmjs.org/grunt-contrib-clean
+npm http GET https://registry.npmjs.org/grunt-qunit-cov
+npm http GET https://registry.npmjs.org/grunt-plato
+npm http GET https://registry.npmjs.org/grunt-contrib-concat
+npm http GET https://registry.npmjs.org/grunt-contrib-uglify
+npm http GET https://registry.npmjs.org/grunt-contrib-jshint
+npm http GET https://registry.npmjs.org/grunt-testem
+npm http 304 https://registry.npmjs.org/grunt-contrib-concat
+npm http 304 https://registry.npmjs.org/grunt-plato
+npm http 304 https://registry.npmjs.org/grunt-contrib-clean
+npm http 304 https://registry.npmjs.org/grunt-contrib-uglify
+npm http 304 https://registry.npmjs.org/grunt-qunit-cov
+npm http 304 https://registry.npmjs.org/grunt-contrib-jshint
+npm http 304 https://registry.npmjs.org/grunt-testem
+npm http GET https://registry.npmjs.org/plato
+npm http GET https://registry.npmjs.org/jshint
+npm http GET https://registry.npmjs.org/grunt
+npm http GET https://registry.npmjs.org/grunt-lib-contrib
+npm http GET https://registry.npmjs.org/uglify-js
+npm http GET https://registry.npmjs.org/async
+npm http GET https://registry.npmjs.org/testem-multi
+npm http GET https://registry.npmjs.org/underscore
+npm http GET https://registry.npmjs.org/wrench
+npm http 304 https://registry.npmjs.org/grunt-lib-contrib
+npm http 304 https://registry.npmjs.org/plato
+npm http 304 https://registry.npmjs.org/uglify-js
+npm http 304 https://registry.npmjs.org/jshint
+npm http 304 https://registry.npmjs.org/grunt
+npm WARN package.json jshint@1.1.0 No repository field.
+npm http GET https://registry.npmjs.org/zlib-browserify/0.0.1
+npm http 304 https://registry.npmjs.org/testem-multi
+npm http 304 https://registry.npmjs.org/async
+npm http 304 https://registry.npmjs.org/underscore
+npm http 304 https://registry.npmjs.org/wrench
+npm http GET https://registry.npmjs.org/simple-spawn
+npm http GET https://registry.npmjs.org/optimist
+npm http GET https://registry.npmjs.org/uglify-to-browserify
+npm http GET https://registry.npmjs.org/source-map
+npm http GET https://registry.npmjs.org/coffee-script
+npm http GET https://registry.npmjs.org/colors
+npm http GET https://registry.npmjs.org/minimatch
+npm http GET https://registry.npmjs.org/rimraf
+npm http GET https://registry.npmjs.org/dateformat/1.0.2-1.2.3
+npm http GET https://registry.npmjs.org/eventemitter2
+npm http GET https://registry.npmjs.org/nopt
+npm http GET https://registry.npmjs.org/findup-sync
+npm http GET https://registry.npmjs.org/iconv-lite
+npm http GET https://registry.npmjs.org/hooker
+npm http GET https://registry.npmjs.org/lodash
+npm http GET https://registry.npmjs.org/underscore.string
+npm http GET https://registry.npmjs.org/js-yaml
+npm http GET https://registry.npmjs.org/which
+npm http GET https://registry.npmjs.org/glob
+npm http GET https://github.com/ariya/esprima/tarball/master
+npm http GET https://registry.npmjs.org/shelljs
+npm http GET https://registry.npmjs.org/cli
+npm http GET https://registry.npmjs.org/minimatch
+npm http GET https://registry.npmjs.org/peakle
+npm http GET https://registry.npmjs.org/lodash
+npm http GET https://registry.npmjs.org/posix-getopt
+npm http GET https://registry.npmjs.org/complexity-report
+npm http GET https://registry.npmjs.org/fs-extra
+npm http 304 https://registry.npmjs.org/zlib-browserify/0.0.1
+npm http 304 https://registry.npmjs.org/optimist
+npm http 304 https://registry.npmjs.org/simple-spawn
+npm http 304 https://registry.npmjs.org/uglify-to-browserify
+npm http 304 https://registry.npmjs.org/source-map
+npm http 304 https://registry.npmjs.org/coffee-script
+npm WARN package.json simple-spawn@0.0.2 No repository field.
+npm WARN package.json simple-spawn@0.0.2 No readme data.
+npm http GET https://registry.npmjs.org/wordwrap
+npm http GET https://registry.npmjs.org/amdefine
+npm http 304 https://registry.npmjs.org/colors
+npm http 304 https://registry.npmjs.org/minimatch
+npm http 304 https://registry.npmjs.org/dateformat/1.0.2-1.2.3
+npm http 304 https://registry.npmjs.org/rimraf
+npm http 304 https://registry.npmjs.org/eventemitter2
+npm WARN package.json dateformat@1.0.2-1.2.3 No repository field.
+npm http 304 https://registry.npmjs.org/findup-sync
+npm http 304 https://registry.npmjs.org/nopt
+npm http 304 https://registry.npmjs.org/iconv-lite
+npm http 304 https://registry.npmjs.org/hooker
+npm http 304 https://registry.npmjs.org/lodash
+npm http 304 https://registry.npmjs.org/js-yaml
+npm http 304 https://registry.npmjs.org/underscore.string
+npm http 304 https://registry.npmjs.org/which
+npm http 304 https://registry.npmjs.org/glob
+npm http 304 https://registry.npmjs.org/shelljs
+npm http 304 https://registry.npmjs.org/minimatch
+npm http 304 https://registry.npmjs.org/lodash
+npm http 304 https://registry.npmjs.org/peakle
+npm http 304 https://registry.npmjs.org/cli
+npm http 304 https://registry.npmjs.org/posix-getopt
+npm WARN package.json peakle@0.0.1 No repository field.
+npm WARN package.json posix-getopt@1.0.0 No repository field.
+npm http GET https://registry.npmjs.org/graceful-fs
+npm http GET https://registry.npmjs.org/abbrev
+npm http 304 https://registry.npmjs.org/complexity-report
+npm http 304 https://registry.npmjs.org/wordwrap
+npm http 304 https://registry.npmjs.org/amdefine
+npm http 304 https://registry.npmjs.org/fs-extra
+npm WARN package.json fs-extra@0.3.2 homepage field must be a string url. Deleted.
+npm http GET https://registry.npmjs.org/lru-cache
+npm http GET https://registry.npmjs.org/sigmund
+npm http GET https://registry.npmjs.org/graceful-fs
+npm http GET https://registry.npmjs.org/inherits
+npm http 304 https://registry.npmjs.org/abbrev
+npm http GET https://registry.npmjs.org/mkdirp
+npm http GET https://registry.npmjs.org/ncp
+npm http GET https://registry.npmjs.org/jsonfile
+npm http 200 https://github.com/ariya/esprima/tarball/master
+npm http GET https://registry.npmjs.org/esprima
+npm http GET https://registry.npmjs.org/argparse
+npm http 304 https://registry.npmjs.org/inherits
+npm http GET https://registry.npmjs.org/console-browserify
+npm http GET https://registry.npmjs.org/esprima
+npm http GET https://registry.npmjs.org/commander
+npm http GET https://registry.npmjs.org/check-types
+npm http 304 https://registry.npmjs.org/mkdirp
+npm http 304 https://registry.npmjs.org/graceful-fs
+npm http 304 https://registry.npmjs.org/ncp
+npm http 304 https://registry.npmjs.org/sigmund
+npm http 304 https://registry.npmjs.org/lru-cache
+npm http 304 https://registry.npmjs.org/jsonfile
+npm http 304 https://registry.npmjs.org/esprima
+npm http 304 https://registry.npmjs.org/graceful-fs
+npm http 304 https://registry.npmjs.org/console-browserify
+npm http 304 https://registry.npmjs.org/argparse
+npm WARN package.json jsonfile@0.0.1 homepage field must be a string url. Deleted.
+npm http 304 https://registry.npmjs.org/esprima
+npm http 304 https://registry.npmjs.org/commander
+npm http 304 https://registry.npmjs.org/check-types
+npm http GET https://registry.npmjs.org/keypress
+npm http GET https://registry.npmjs.org/underscore
+npm http 304 https://registry.npmjs.org/keypress
+npm http 304 https://registry.npmjs.org/underscore
+
+grunt-contrib-concat@0.2.0 node_modules/grunt-contrib-concat
+
+grunt-testem@0.3.6 node_modules/grunt-testem
+├── async@0.1.22
+├── underscore@1.4.4
+└── testem-multi@0.2.0 (simple-spawn@0.0.2)
+
+grunt-contrib-uglify@0.2.4 node_modules/grunt-contrib-uglify
+├── grunt-lib-contrib@0.6.1 (zlib-browserify@0.0.1)
+└── uglify-js@2.4.0 (uglify-to-browserify@1.0.1, async@0.2.9, source-map@0.1.29, optimist@0.3.7)
+
+grunt-plato@0.2.1 node_modules/grunt-plato
+└── plato@0.6.1 (posix-getopt@1.0.0, fs-extra@0.3.2, lodash@1.0.1, jshint@2.1.10, complexity-report@0.10.5)
+
+grunt@0.4.1 node_modules/grunt
+├── which@1.0.5
+├── dateformat@1.0.2-1.2.3
+├── eventemitter2@0.4.13
+├── colors@0.6.2
+├── async@0.1.22
+├── hooker@0.2.3
+├── nopt@1.0.10 (abbrev@1.0.4)
+├── coffee-script@1.3.3
+├── underscore.string@2.2.1
+├── iconv-lite@0.2.11
+├── lodash@0.9.2
+├── findup-sync@0.1.2 (lodash@1.0.1)
+├── minimatch@0.2.12 (sigmund@1.0.0, lru-cache@2.3.1)
+├── rimraf@2.0.3 (graceful-fs@1.1.14)
+├── glob@3.1.21 (inherits@1.0.0, graceful-fs@1.2.3)
+└── js-yaml@2.0.5 (esprima@1.0.4, argparse@0.1.15)
+
+grunt-contrib-clean@0.4.1 node_modules/grunt-contrib-clean
+
+grunt-qunit-cov@0.3.4 node_modules/grunt-qunit-cov
+├── wrench@1.4.4
+└── grunt@0.4.1 (which@1.0.5, dateformat@1.0.2-1.2.3, eventemitter2@0.4.13, colors@0.6.2, hooker@0.2.3, async@0.1.22, nopt@1.0.10, coffee-script@1.3.3, underscore.string@2.2.1, iconv-lite@0.2.11, lodash@0.9.2, rimraf@2.0.3, minimatch@0.2.12, glob@3.1.21, findup-sync@0.1.2, js-yaml@2.0.5)
+
+grunt-contrib-jshint@0.4.3 node_modules/grunt-contrib-jshint
+└── jshint@1.1.0 (peakle@0.0.1, minimatch@0.2.12, underscore@1.4.4, cli@0.4.5, shelljs@0.1.4, esprima@1.1.0-dev)

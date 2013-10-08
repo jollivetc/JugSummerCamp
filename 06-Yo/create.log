@@ -1,0 +1,1036 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Yeoman is a mask worn by the following members of the open-source community:
+
+  Paul Irish, Addy Osmani, Mickael Daniel, Sindre Sorhus, Eric Bidelman,
+  Frederick Ros, Brian Ford, Pascal Hartig, Stephen Sawchuk, and countless
+  other contributors.
+
+[?] What would you like to do? Run the Angular generator (0.4.0)
+
+Before you create a new application, be sure you are in the directory you
+wish your application to be dropped into.
+
+You may also run the following command to initiate this generator:
+
+    yo angular
+
+[?] Would you like to include Twitter Bootstrap? Yes
+[?] Would you like to use the SCSS version of Twitter Bootstrap with the Compass CSS Authoring Framework? Yes
+[?] Which modules would you like to include? angular-resource.js
+   create app/images/glyphicons-halflings.png
+   create app/images/glyphicons-halflings-white.png
+   create app/styles/main.scss
+   create app/index.html
+   create bower.json
+   create package.json
+   create Gruntfile.js
+   invoke   angular:common:/usr/local/share/npm/lib/node_modules/generator-angular/app/index.js
+   create     .bowerrc
+   create     .editorconfig
+   create     .gitattributes
+   create     .jshintrc
+   create     app/.buildignore
+   create     app/.htaccess
+   create     app/404.html
+   create     app/favicon.ico
+   create     app/robots.txt
+   create     app/views/main.html
+   create     test/.jshintrc
+   create     test/runner.html
+   create     .gitignore
+   invoke   angular:main:/usr/local/share/npm/lib/node_modules/generator-angular/app/index.js
+   create     app/scripts/app.js
+   invoke   angular:controller:/usr/local/share/npm/lib/node_modules/generator-angular/app/index.js
+   create     app/scripts/controllers/main.js
+   create     test/spec/controllers/main.js
+   invoke   karma:app
+   create     karma.conf.js
+   create     karma-e2e.conf.js
+   create     .travis.yml
+
+
+I'm all done. Running bower install & npm install for you to install the required dependencies. If this fails, try running the command yourself.
+
+
+npm WARN package.json 06-yo@0.0.0 No repository field.
+npm npmWARN package.json 06-yo@0.0.0 No readme data.
+ WARN package.json 06-yo@0.0.0 No repository field.
+npm WARN package.json 06-yo@0.0.0 No readme data.
+npm http GET https://registry.npmjs.org/karma-ng-html2js-preprocessor
+npm http GET https://registry.npmjs.org/karma-ng-scenario
+npm http GET https://registry.npmjs.org/grunt-karma
+npm http GET https://registry.npmjs.org/grunt-contrib-cssmin
+npm http GET https://registry.npmjs.org/grunt-contrib-jshint
+npm http GET https://registry.npmjs.org/grunt
+npm http GET https://registry.npmjs.org/grunt-contrib-connect
+npm http GET https://registry.npmjs.org/grunt-contrib-htmlmin
+npm http GET https://registry.npmjs.org/grunt-contrib-clean
+npm http GET https://registry.npmjs.org/grunt-contrib-imagemin
+npm http GET https://registry.npmjs.org/grunt-contrib-copy
+npm http GET https://registry.npmjs.org/grunt-contrib-uglify
+npm http GET https://registry.npmjs.org/grunt-contrib-concat
+npm http GET https://registry.npmjs.org/grunt-contrib-compass
+npm http GET https://registry.npmjs.org/grunt-autoprefixer
+npm http GET https://registry.npmjs.org/grunt-contrib-watch
+npm http GET https://registry.npmjs.org/grunt-contrib-coffee
+npm http GET https://registry.npmjs.org/grunt-rev
+npm http GET https://registry.npmjs.org/grunt-open
+npm http GET https://registry.npmjs.org/grunt-svgmin
+npm http GET https://registry.npmjs.org/load-grunt-tasks
+npm http GET https://registry.npmjs.org/connect-livereload
+npm http GET https://registry.npmjs.org/grunt-concurrent
+npm http GET https://registry.npmjs.org/grunt-usemin
+npm http GET https://registry.npmjs.org/grunt-ngmin
+npm http GET https://registry.npmjs.org/grunt-google-cdn
+npm http GET https://registry.npmjs.org/time-grunt
+bower bootstrap-sass#~2.3.1     cached git://github.com/jlong/sass-twitter-bootstrap.git#2.3.2
+bower bootstrap-sass#~2.3.1   validate 2.3.2 against git://github.com/jlong/sass-twitter-bootstrap.git#~2.3.1
+bower json3#~3.2.4              cached git://github.com/bestiejs/json3.git#3.2.5
+bower json3#~3.2.4            validate 3.2.5 against git://github.com/bestiejs/json3.git#~3.2.4
+bower angular#~1.0.7            cached git://github.com/angular/bower-angular.git#1.0.8
+bower angular#~1.0.7          validate 1.0.8 against git://github.com/angular/bower-angular.git#~1.0.7
+bower angular-scenario#~1.0.7   cached git://github.com/angular/bower-angular-scenario.git#1.0.8
+bower angular-scenario#~1.0.7 validate 1.0.8 against git://github.com/angular/bower-angular-scenario.git#~1.0.7
+bower angular-mocks#~1.0.7      cached git://github.com/angular/bower-angular-mocks.git#1.0.8
+bower angular-mocks#~1.0.7    validate 1.0.8 against git://github.com/angular/bower-angular-mocks.git#~1.0.7
+bower jquery#~1.9.1             cached git://github.com/components/jquery.git#1.9.1
+bower jquery#~1.9.1           validate 1.9.1 against git://github.com/components/jquery.git#~1.9.1
+bower angular-resource#~1.0.7   cached git://github.com/angular/bower-angular-resource.git#1.0.8
+bower angular-resource#~1.0.7 validate 1.0.8 against git://github.com/angular/bower-angular-resource.git#~1.0.7
+bower es5-shim#~2.0.8           cached git://github.com/kriskowal/es5-shim.git#2.0.12
+bower es5-shim#~2.0.8         validate 2.0.12 against git://github.com/kriskowal/es5-shim.git#~2.0.8
+npm http 304 https://registry.npmjs.org/grunt
+npm http 304 https://registry.npmjs.org/karma-ng-scenario
+npmnpm http 304 https://registry.npmjs.org/grunt-contrib-htmlmin
+ http 304 https://registry.npmjs.org/grunt-karma
+npm http 304 https://registry.npmjs.org/grunt-contrib-cssmin
+npmnpm  httphttp 304 https://registry.npmjs.org/grunt-contrib-jshint
+ 304 https://registry.npmjs.org/karma-ng-html2js-preprocessor
+npm http 304 https://registry.npmjs.org/grunt-contrib-connect
+npm WARN package.json grunt-contrib-connect@0.3.0 No readme data.
+npm WARN package.json grunt-contrib-htmlmin@0.1.3 No readme data.
+npm http GET https://registry.npmjs.org/karma
+npm http GET https://registry.npmjs.org/optimist
+npm http 304 https://registry.npmjs.org/grunt-contrib-clean
+npm http 304 https://registry.npmjs.org/grunt-contrib-uglify
+npm http 304 https://registry.npmjs.org/grunt-contrib-imagemin
+npm http 304 https://registry.npmjs.org/grunt-contrib-copy
+npm http 304 https://registry.npmjs.org/grunt-contrib-concat
+npm http 304 https://registry.npmjs.org/grunt-contrib-compass
+npm http 304 https://registry.npmjs.org/grunt-autoprefixer
+npm http 304 https://registry.npmjs.org/grunt-contrib-watch
+npm http 304 https://registry.npmjs.org/grunt-contrib-coffee
+npm http 304 https://registry.npmjs.org/grunt-rev
+bower angular#1.0.8             cached git://github.com/angular/bower-angular.git#1.0.8
+bower angular#1.0.8           validate 1.0.8 against git://github.com/angular/bower-angular.git#1.0.8
+bower jquery#>=1.8.0            cached git://github.com/components/jquery.git#2.0.3
+bower jquery#>=1.8.0          validate 2.0.3 against git://github.com/components/jquery.git#>=1.8.0
+bower angular-mocks#~1.0.7     install angular-mocks#1.0.8
+bower jquery#~1.9.1            install jquery#1.9.1
+bower angular#~1.0.7           install angular#1.0.8
+bower angular-resource#~1.0.7  install angular-resource#1.0.8
+bower angular-scenario#~1.0.7  install angular-scenario#1.0.8
+bower json3#~3.2.4             install json3#3.2.5
+bower es5-shim#~2.0.8          install es5-shim#2.0.12
+bower bootstrap-sass#~2.3.1    install bootstrap-sass#2.3.2
+npm http 304 https://registry.npmjs.org/grunt-open
+npm http 304 https://registry.npmjs.org/load-grunt-tasks
+npm http 304 https://registry.npmjs.org/grunt-svgmin
+npm http 304 https://registry.npmjs.org/grunt-concurrent
+npm http 304 https://registry.npmjs.org/connect-livereload
+npm http 304 https://registry.npmjs.org/grunt-usemin
+npm http 304 https://registry.npmjs.org/grunt-google-cdn
+npm http 304 https://registry.npmjs.org/grunt-ngmin
+npm http 304 https://registry.npmjs.org/time-grunt
+npm http 304 https://registry.npmjs.org/karma
+npm http 304 https://registry.npmjs.org/optimist
+npm http GET https://registry.npmjs.org/chalk
+npm http GET https://registry.npmjs.org/ms
+npm http GET https://registry.npmjs.org/minimatch
+npm http GET https://registry.npmjs.org/text-table
+npm http GET https://registry.npmjs.org/svgo
+npm http GET https://registry.npmjs.org/filesize
+npm http GET https://registry.npmjs.org/google-cdn
+npm http GET https://registry.npmjs.org/bower
+npm http GET https://registry.npmjs.org/lpad
+npm http GET https://registry.npmjs.org/filesize
+npm http GET https://registry.npmjs.org/optipng-bin
+npm http GET https://registry.npmjs.org/gifsicle
+npm http GET https://registry.npmjs.org/pngquant-bin
+npm http GET https://registry.npmjs.org/wordwrap
+npm http GET https://registry.npmjs.org/jpegtran-bin
+npm http GET https://registry.npmjs.org/minimist
+npm http GET https://registry.npmjs.org/autoprefixer
+npm http GET https://registry.npmjs.org/async
+npm http GET https://registry.npmjs.org/dargs
+npm http GET https://registry.npmjs.org/connect
+npm http GET https://registry.npmjs.org/tmp/0.0.21
+npm http GET https://registry.npmjs.org/ngmin
+npm http GET https://registry.npmjs.org/html-minifier
+npm http GET https://registry.npmjs.org/grunt-lib-contrib
+npm http GET https://registry.npmjs.org/open
+npm http GET https://registry.npmjs.org/rimraf
+npm http GET https://registry.npmjs.org/glob
+npm http GET https://registry.npmjs.org/minimatch
+npm http GET https://registry.npmjs.org/chokidar
+npm http GET https://registry.npmjs.org/http-proxy
+npm http GET https://registry.npmjs.org/coffee-script
+npm http GET https://registry.npmjs.org/rimraf
+npm http GET https://registry.npmjs.org/grunt-lib-contrib
+npm http GET https://registry.npmjs.org/jshint
+npm http GET https://registry.npmjs.org/clean-css
+npm http GET https://registry.npmjs.org/q
+npm http GET https://registry.npmjs.org/mime
+npm http GET https://registry.npmjs.org/lodash
+npm http GET https://registry.npmjs.org/colors/0.6.0-1
+npm http GET https://registry.npmjs.org/log4js
+npm http GET https://registry.npmjs.org/graceful-fs
+npm http GET https://registry.npmjs.org/connect
+npm http GET https://registry.npmjs.org/useragent
+npm http GET https://registry.npmjs.org/di
+npm http GET https://registry.npmjs.org/socket.io
+npm http GET https://registry.npmjs.org/coffee-script
+npm http GET https://registry.npmjs.org/uglify-js
+npm http GET https://registry.npmjs.org/tiny-lr/0.0.4
+npm http GET https://registry.npmjs.org/gaze
+npm http GET https://registry.npmjs.org/async
+npm http GET https://registry.npmjs.org/coffee-script
+npm http GET https://registry.npmjs.org/colors
+npm http GET https://registry.npmjs.org/findup-sync
+npm http GET https://registry.npmjs.org/dateformat/1.0.2-1.2.3
+npm http GET https://registry.npmjs.org/eventemitter2
+npm http GET https://registry.npmjs.org/nopt
+npm http GET https://registry.npmjs.org/minimatch
+npm http GET https://registry.npmjs.org/rimraf
+npm http GET https://registry.npmjs.org/lodash
+npm http GET https://registry.npmjs.org/which
+npm http GET https://registry.npmjs.org/underscore.string
+npm http GET https://registry.npmjs.org/js-yaml
+npm http GET https://registry.npmjs.org/hooker
+npm http GET https://registry.npmjs.org/iconv-lite
+
+angular-mocks#1.0.8 app/bower_components/angular-mocks
+└── angular#1.0.8
+
+jquery#1.9.1 app/bower_components/jquery
+
+angular#1.0.8 app/bower_components/angular
+
+angular-resource#1.0.8 app/bower_components/angular-resource
+└── angular#1.0.8
+
+angular-scenario#1.0.8 app/bower_components/angular-scenario
+└── angular#1.0.8
+
+json3#3.2.5 app/bower_components/json3
+
+es5-shim#2.0.12 app/bower_components/es5-shim
+
+bootstrap-sass#2.3.2 app/bower_components/bootstrap-sass
+└── jquery#2.0.3
+npm http 304 https://registry.npmjs.org/svgo
+npm http 304 https://registry.npmjs.org/minimatch
+npm http 304 https://registry.npmjs.org/ms
+npm http 304 https://registry.npmjs.org/text-table
+npm http 304 https://registry.npmjs.org/chalk
+npm WARN package.json ms@0.6.1 No repository field.
+npm http GET https://registry.npmjs.org/lru-cache
+npm http GET https://registry.npmjs.org/sigmund
+npm http GET https://registry.npmjs.org/has-color
+npm http GET https://registry.npmjs.org/ansi-styles
+npm http 304 https://registry.npmjs.org/filesize
+npm http 304 https://registry.npmjs.org/minimist
+npm http 304 https://registry.npmjs.org/bower
+npm http 304 https://registry.npmjs.org/google-cdn
+npm http 304 https://registry.npmjs.org/lpad
+npm http 304 https://registry.npmjs.org/wordwrap
+npm http 304 https://registry.npmjs.org/filesize
+npm http GET https://registry.npmjs.org/semver
+npm http GET https://registry.npmjs.org/debug
+npm http GET https://registry.npmjs.org/colors
+npm http GET https://registry.npmjs.org/js-yaml
+npm http GET https://registry.npmjs.org/sax
+npm http GET https://registry.npmjs.org/whet.extend
+npm http GET https://registry.npmjs.org/coa
+npm http 304 https://registry.npmjs.org/optipng-bin
+npm http 304 https://registry.npmjs.org/gifsicle
+npm http 304 https://registry.npmjs.org/http-proxy
+npm http 304 https://registry.npmjs.org/pngquant-bin
+npm http 304 https://registry.npmjs.org/jpegtran-bin
+npm http 304 https://registry.npmjs.org/glob
+npm http 304 https://registry.npmjs.org/autoprefixer
+npm http 304 https://registry.npmjs.org/coffee-script
+npm http 304 https://registry.npmjs.org/minimatch
+npm http 304 https://registry.npmjs.org/chokidar
+npm http 304 https://registry.npmjs.org/rimraf
+npm http 304 https://registry.npmjs.org/dargs
+npm http 304 https://registry.npmjs.org/async
+npm http 304 https://registry.npmjs.org/tmp/0.0.21
+npm http 304 https://registry.npmjs.org/connect
+npm http 304 https://registry.npmjs.org/ngmin
+npm http 304 https://registry.npmjs.org/q
+npm http 304 https://registry.npmjs.org/mime
+npm http 304 https://registry.npmjs.org/lodash
+npm http 304 https://registry.npmjs.org/colors/0.6.0-1
+npm http 304 https://registry.npmjs.org/grunt-lib-contrib
+npm http 304 https://registry.npmjs.org/html-minifier
+npm http 304 https://registry.npmjs.org/log4js
+npm http 304 https://registry.npmjs.org/rimraf
+npm http 304 https://registry.npmjs.org/open
+npmnpm http  http304  https://registry.npmjs.org/grunt-lib-contrib
+304 https://registry.npmjs.org/graceful-fs
+npm http 304 https://registry.npmjs.org/connect
+npm WARN package.json connect@2.7.11 No readme data.
+npm http GET https://registry.npmjs.org/tar
+npm http GET https://registry.npmjs.org/mocha
+npm http GET https://registry.npmjs.org/mkdirp
+npm http GET https://registry.npmjs.org/request
+npm http GET https://registry.npmjs.org/request-progress
+npm http GET https://registry.npmjs.org/request
+npm http 304 https://registry.npmjs.org/jshint
+npm http 304 https://registry.npmjs.org/clean-css
+npm http 304 https://registry.npmjs.org/socket.io
+npm http 304 https://registry.npmjs.org/coffee-script
+npm httpnpm  http304  https://registry.npmjs.org/useragent
+304 https://registry.npmjs.org/tiny-lr/0.0.4
+npm http 304 https://registry.npmjs.org/uglify-js
+npm http 304 https://registry.npmjs.org/di
+npm http 304 https://registry.npmjs.org/async
+npm http 304 https://registry.npmjs.org/gaze
+npm http 304 https://registry.npmjs.org/coffee-script
+npm http 304 https://registry.npmjs.org/findup-sync
+npm http 304 https://registry.npmjs.org/colors
+npm http 304 https://registry.npmjs.org/eventemitter2
+npm http 304 https://registry.npmjs.org/dateformat/1.0.2-1.2.3
+npm http 304 https://registry.npmjs.org/nopt
+npm http 304 https://registry.npmjs.org/minimatch
+npm http 304 https://registry.npmjs.org/rimraf
+npm http GET https://registry.npmjs.org/zlib-browserify/0.0.1
+npm WARN package.json dateformat@1.0.2-1.2.3 No repository field.
+npm http GET https://registry.npmjs.org/commander
+npm http GET https://registry.npmjs.org/esprima
+npm http GET https://registry.npmjs.org/clone
+npm http GET https://registry.npmjs.org/astral
+npm http GET https://registry.npmjs.org/astral-angular-annotate
+npm http GET https://registry.npmjs.org/escodegen
+npm http GET https://registry.npmjs.org/commander
+npm http 304 https://registry.npmjs.org/lodash
+npm http 304 https://registry.npmjs.org/which
+npm http 304 https://registry.npmjs.org/js-yaml
+npm http 304 https://registry.npmjs.org/underscore.string
+npm http 304 https://registry.npmjs.org/hooker
+npm http GET https://registry.npmjs.org/inherits
+npm http GET https://registry.npmjs.org/debug
+npm http GET https://registry.npmjs.org/qs
+npm http GET https://registry.npmjs.org/noptify
+npm http GET https://registry.npmjs.org/faye-websocket
+npm http 304 https://registry.npmjs.org/iconv-lite
+npm http 304 https://registry.npmjs.org/lru-cache
+npm http 304 https://registry.npmjs.org/sigmund
+npm http 304 https://registry.npmjs.org/has-color
+npm http 304 https://registry.npmjs.org/ansi-styles
+npm http GET https://registry.npmjs.org/policyfile/0.0.4
+npm http GET https://registry.npmjs.org/base64id/0.1.0
+npm http GET https://registry.npmjs.org/redis/0.7.3
+npm http GET https://registry.npmjs.org/socket.io-client/0.9.16
+npm http 304 https://registry.npmjs.org/semver
+npm http 304 https://registry.npmjs.org/debug
+npm http 304 https://registry.npmjs.org/colors
+npm http 304 https://registry.npmjs.org/js-yaml
+npm http 304 https://registry.npmjs.org/sax
+npm http GET https://registry.npmjs.org/globule
+npm http GET https://registry.npmjs.org/utile
+npm http GET https://registry.npmjs.org/pkginfo
+npm http GET https://registry.npmjs.org/css-parse
+npm http GET https://registry.npmjs.org/css-stringify
+npm http GET https://registry.npmjs.org/cookie-signature/1.0.1
+npm http GET https://registry.npmjs.org/qs/0.6.5
+npm http GET https://registry.npmjs.org/formidable/1.0.14
+npm http GET https://registry.npmjs.org/buffer-crc32/0.2.1
+npm http GET https://registry.npmjs.org/send/0.1.4
+npm http GET https://registry.npmjs.org/cookie/0.1.0
+npm http GET https://registry.npmjs.org/fresh/0.2.0
+npm http GET https://registry.npmjs.org/bytes/0.2.0
+npm http GET https://registry.npmjs.org/pause/0.0.1
+npm http GET https://registry.npmjs.org/uid2/0.0.2
+npm http GET https://registry.npmjs.org/methods/0.0.1
+npm http 304 https://registry.npmjs.org/whet.extend
+npm http 304 https://registry.npmjs.org/coa
+npm http 304 https://registry.npmjs.org/tar
+npm http 304 https://registry.npmjs.org/mocha
+npm http 304 https://registry.npmjs.org/mkdirp
+npm http 304 https://registry.npmjs.org/zlib-browserify/0.0.1
+npm http 304 https://registry.npmjs.org/request
+npm http 304 https://registry.npmjs.org/request-progress
+npm http 304 https://registry.npmjs.org/request
+npm http 304 https://registry.npmjs.org/commander
+npm http 304 https://registry.npmjs.org/clone
+npm http 304 https://registry.npmjs.org/astral
+npm http 304 https://registry.npmjs.org/esprima
+npm http 304 https://registry.npmjs.org/astral-angular-annotate
+npm http GET https://registry.npmjs.org/abbrev
+npm http 304 https://registry.npmjs.org/escodegen
+npm http GET https://registry.npmjs.org/async/0.1.15
+npm http GET https://registry.npmjs.org/dequeue/1.0.3
+npm http GET https://registry.npmjs.org/readable-stream
+npm http 304 https://registry.npmjs.org/commander
+npm http 304 https://registry.npmjs.org/inherits
+npm http 304 https://registry.npmjs.org/qs
+npm http 304 https://registry.npmjs.org/debug
+npm http 304 https://registry.npmjs.org/noptify
+npm http 304 https://registry.npmjs.org/faye-websocket
+npm http GET https://registry.npmjs.org/cli
+npm http GET https://registry.npmjs.org/console-browserify
+npm http GET https://registry.npmjs.org/underscore
+npm http GET https://registry.npmjs.org/shelljs
+npm http 304 https://registry.npmjs.org/globule
+npm http 304 https://registry.npmjs.org/redis/0.7.3
+npm http 304 https://registry.npmjs.org/policyfile/0.0.4
+npm http 304 https://registry.npmjs.org/base64id/0.1.0
+npm http 304 https://registry.npmjs.org/css-parse
+npm http 304 https://registry.npmjs.org/utile
+npm http 304 https://registry.npmjs.org/css-stringify
+npm http 304 https://registry.npmjs.org/abbrev
+npm http 304 https://registry.npmjs.org/socket.io-client/0.9.16
+npm WARN package.json faye-websocket@0.4.4 No repository field.
+npm WARN package.json faye-websocket@0.4.4 'repositories' (plural) Not supported.
+npm WARN package.json Please pick one as the 'repository' field
+npm http 304 https://registry.npmjs.org/console-browserify
+npm http 304 https://registry.npmjs.org/pkginfo
+npm http 304 https://registry.npmjs.org/cookie-signature/1.0.1
+npm http 304 https://registry.npmjs.org/shelljs
+npm http 304 https://registry.npmjs.org/underscore
+npm http 304 https://registry.npmjs.org/qs/0.6.5
+npm http 304 https://registry.npmjs.org/buffer-crc32/0.2.1
+npm http 304 https://registry.npmjs.org/formidable/1.0.14
+npm WARN package.json policyfile@0.0.4 No repository field.
+npm WARN package.json policyfile@0.0.4 'repositories' (plural) Not supported.
+npm WARN package.json Please pick one as the 'repository' field
+npm WARN package.json css-stringify@1.3.1 No repository field.
+npm WARN package.json cookie-signature@1.0.1 No repository field.
+npm http 304 https://registry.npmjs.org/send/0.1.4
+npm http 304 https://registry.npmjs.org/fresh/0.2.0
+npm http 304 https://registry.npmjs.org/cookie/0.1.0
+npm http 304 https://registry.npmjs.org/bytes/0.2.0
+npm http 304 https://registry.npmjs.org/pause/0.0.1
+npm WARN package.json bytes@0.2.0 No repository field.
+npm WARN package.json pause@0.0.1 No repository field.
+npm http GET https://registry.npmjs.org/deep-equal
+npm http GET https://registry.npmjs.org/i
+npm http GET https://registry.npmjs.org/ncp
+npm http 304 https://registry.npmjs.org/uid2/0.0.2
+npm http 304 https://registry.npmjs.org/methods/0.0.1
+npm http 304 https://registry.npmjs.org/async/0.1.15
+npm http 304 https://registry.npmjs.org/dequeue/1.0.3
+npm http 304 https://registry.npmjs.org/readable-stream
+npm WARN package.json methods@0.0.1 No repository field.
+npm WARN package.json methods@0.0.1 No readme data.
+npm WARN package.json uid2@0.0.2 No repository field.
+npm WARN package.json uid2@0.0.2 No readme data.
+npm http GET https://registry.npmjs.org/throttleit
+npm http 304 https://registry.npmjs.org/deep-equal
+npm http 304 https://registry.npmjs.org/i
+npm http 304 https://registry.npmjs.org/ncp
+npm http 304 https://registry.npmjs.org/cli
+npm http GET https://registry.npmjs.org/keypress
+npm http GET https://registry.npmjs.org/range-parser/0.0.4
+npm http GET https://registry.npmjs.org/hogan.js
+npm http GET https://registry.npmjs.org/glob
+npm http GET https://registry.npmjs.org/promptly
+npm http GET https://registry.npmjs.org/rc
+npm http GET https://registry.npmjs.org/read-package-json
+npm http GET https://registry.npmjs.org/stable
+npm http GET https://registry.npmjs.org/astral-pass
+npm http GET https://registry.npmjs.org/tmp
+npm http GET https://registry.npmjs.org/unzip/0.1.7
+npm http GET https://registry.npmjs.org/update-notifier
+npm http GET https://registry.npmjs.org/archy
+npm http GET https://registry.npmjs.org/fstream
+npm http GET https://registry.npmjs.org/glob
+npm http GET https://registry.npmjs.org/estraverse
+npm http GET https://registry.npmjs.org/source-map
+npm http GET https://registry.npmjs.org/q
+npm http GET https://registry.npmjs.org/source-map
+npm http GET https://registry.npmjs.org/optimist
+npm http GET https://registry.npmjs.org/argparse
+npm http GET https://registry.npmjs.org/uglify-to-browserify
+npm http GET https://registry.npmjs.org/glob
+npm http GET https://registry.npmjs.org/block-stream
+npm http GET https://registry.npmjs.org/fstream
+npm http 304 https://registry.npmjs.org/throttleit
+npm http GET https://registry.npmjs.org/xmlhttprequest/1.4.2
+npm http GET https://registry.npmjs.org/uglify-js/1.2.5
+npm http GET https://registry.npmjs.org/active-x-obfuscator/0.0.1
+npm http GET https://registry.npmjs.org/ws
+npm WARN package.json cookie-signature@1.0.1 No repository field.
+npm WARN package.json bytes@0.2.0 No repository field.
+npm WARN package.json pause@0.0.1 No repository field.
+npm http GET https://registry.npmjs.org/cookie/0.0.5
+npm http 304 https://registry.npmjs.org/rc
+npm http GET https://registry.npmjs.org/send/0.1.1
+npm http GET https://registry.npmjs.org/fresh/0.1.0
+npm http 304 https://registry.npmjs.org/range-parser/0.0.4
+npm http 304 https://registry.npmjs.org/keypress
+npm WARN package.json range-parser@0.0.4 No repository field.
+npm http 304 https://registry.npmjs.org/read-package-json
+npm http GET https://registry.npmjs.org/json-stringify-safe
+npm http GET https://registry.npmjs.org/http-signature
+npm http GET https://registry.npmjs.org/forever-agent
+npm http GET https://registry.npmjs.org/hawk
+npm http GET https://registry.npmjs.org/tunnel-agent
+npm http GET https://registry.npmjs.org/aws-sign
+npm http GET https://registry.npmjs.org/oauth-sign
+npm http GET https://registry.npmjs.org/cookie-jar
+npm http GET https://registry.npmjs.org/node-uuid
+npm http GET https://registry.npmjs.org/mime
+npm http GET https://registry.npmjs.org/form-data
+npm http 304 https://registry.npmjs.org/promptly
+npm http 304 https://registry.npmjs.org/hogan.js
+npm http 304 https://registry.npmjs.org/stable
+npm http 304 https://registry.npmjs.org/glob
+npm http GET https://registry.npmjs.org/diff/1.0.2
+npm http GET https://registry.npmjs.org/glob/3.2.1
+npm http GET https://registry.npmjs.org/commander/0.6.1
+npm http GET https://registry.npmjs.org/growl
+npm http GET https://registry.npmjs.org/jade/0.26.3
+npm http 304 https://registry.npmjs.org/astral-pass
+npm http 304 https://registry.npmjs.org/unzip/0.1.7
+npm http 304 https://registry.npmjs.org/fstream
+npm http 304 https://registry.npmjs.org/tmp
+npm http 304 https://registry.npmjs.org/update-notifier
+npm http 304 https://registry.npmjs.org/archy
+npm http 304 https://registry.npmjs.org/glob
+npm http 304 https://registry.npmjs.org/source-map
+npm http 304 https://registry.npmjs.org/estraverse
+npm http 304 https://registry.npmjs.org/source-map
+npm http 304 https://registry.npmjs.org/q
+npm http 304 https://registry.npmjs.org/uglify-js/1.2.5
+npm http 304 https://registry.npmjs.org/active-x-obfuscator/0.0.1
+npm http 304 https://registry.npmjs.org/ws
+npm http 304 https://registry.npmjs.org/xmlhttprequest/1.4.2
+npm http 304 https://registry.npmjs.org/optimist
+npm http 304 https://registry.npmjs.org/argparse
+npm http 304 https://registry.npmjs.org/uglify-to-browserify
+npm http 304 https://registry.npmjs.org/block-stream
+npm http 304 https://registry.npmjs.org/glob
+npm http GET https://registry.npmjs.org/zeparser/0.0.5
+npm http 304 https://registry.npmjs.org/fstream
+npm http 304 https://registry.npmjs.org/send/0.1.1
+npm http 304 https://registry.npmjs.org/cookie/0.0.5
+npm http 304 https://registry.npmjs.org/fresh/0.1.0
+npm http 304 https://registry.npmjs.org/json-stringify-safe
+npm http 304 https://registry.npmjs.org/http-signature
+npm http 304 https://registry.npmjs.org/forever-agent
+npm http 304 https://registry.npmjs.org/hawk
+npm http 304 https://registry.npmjs.org/tunnel-agent
+npm http 304 https://registry.npmjs.org/aws-sign
+npm WARN package.json fresh@0.1.0 No repository field.
+npm http 304 https://registry.npmjs.org/cookie-jar
+npm http 304 https://registry.npmjs.org/node-uuid
+npm http 304 https://registry.npmjs.org/oauth-sign
+npm http 304 https://registry.npmjs.org/mime
+npm http 304 https://registry.npmjs.org/form-data
+npm http GET https://registry.npmjs.org/config-chain
+npm http GET https://registry.npmjs.org/commander
+npm http GET https://registry.npmjs.org/tinycolor
+npm http GET https://registry.npmjs.org/options
+npm http GET https://registry.npmjs.org/nan
+npm http 304 https://registry.npmjs.org/commander/0.6.1
+npm http 304 https://registry.npmjs.org/diff/1.0.2
+npm http 304 https://registry.npmjs.org/glob/3.2.1
+npm http 304 https://registry.npmjs.org/growl
+npm http 304 https://registry.npmjs.org/jade/0.26.3
+npm http GET https://registry.npmjs.org/request
+npm http GET https://registry.npmjs.org/chalk
+npm http GET https://registry.npmjs.org/semver
+npm http GET https://registry.npmjs.org/configstore
+npm WARN package.json jade@0.26.3 No readme data.
+npm WARN package.json growl@1.7.0 No repository field.
+npm http 304 https://registry.npmjs.org/config-chain
+npm http GET https://registry.npmjs.org/graceful-fs
+npm http GET https://registry.npmjs.org/inherits
+npm http GET https://registry.npmjs.org/read
+npm http GET https://registry.npmjs.org/graceful-fs
+npm http GET https://registry.npmjs.org/lru-cache
+npm http GET https://registry.npmjs.org/slide
+npm http GET https://registry.npmjs.org/npmlog
+npm http GET https://registry.npmjs.org/combined-stream
+npm http GET https://registry.npmjs.org/async
+npm http 304 https://registry.npmjs.org/zeparser/0.0.5
+npm WARN package.json range-parser@0.0.4 No repository field.
+npm http GET https://registry.npmjs.org/lru-cache
+npm http GET https://registry.npmjs.org/sigmund
+npm http GET https://registry.npmjs.org/qs
+npm http GET https://registry.npmjs.org/proto-list
+npm http GET https://registry.npmjs.org/ini
+npm http GET https://registry.npmjs.org/assert-plus/0.1.2
+npm http GET https://registry.npmjs.org/asn1/0.1.11
+npm http GET https://registry.npmjs.org/ctype/0.5.2
+npm http GET https://registry.npmjs.org/minimatch
+npm http GET https://registry.npmjs.org/graceful-fs
+npm http GET https://registry.npmjs.org/inherits
+npm http GET https://registry.npmjs.org/readable-stream
+npm http GET https://registry.npmjs.org/match-stream/0.0.1
+npm http GET https://registry.npmjs.org/binary
+npm http GET https://registry.npmjs.org/setimmediate
+npm http GET https://registry.npmjs.org/pullstream
+npm http GET https://registry.npmjs.org/graceful-fs
+npm http GET https://registry.npmjs.org/inherits
+npm http GET https://registry.npmjs.org/wordwrap
+npm http 304 https://registry.npmjs.org/tinycolor
+npm http 304 https://registry.npmjs.org/options
+npm http 304 https://registry.npmjs.org/commander
+npm http 304 https://registry.npmjs.org/nan
+npm http GET https://registry.npmjs.org/debug
+npm http 304 https://registry.npmjs.org/request
+npm http 304 https://registry.npmjs.org/semver
+
+> ws@0.4.30 install /Users/christophe/Documents/Conf/JavaScriptUsineLogicielle/Demo/06-Yo/node_modules/karma/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws
+> (node-gyp rebuild 2> builderror.log) || (exit 0)
+
+npm http 304 https://registry.npmjs.org/chalk
+npm http 304 https://registry.npmjs.org/configstore
+npm http 304 https://registry.npmjs.org/graceful-fs
+npm http 304 https://registry.npmjs.org/inherits
+npm http 304 https://registry.npmjs.org/read
+npm http 304 https://registry.npmjs.org/graceful-fs
+npm http 304 https://registry.npmjs.org/lru-cache
+npm http 304 https://registry.npmjs.org/slide
+npm http 304 https://registry.npmjs.org/npmlog
+npm http 304 https://registry.npmjs.org/combined-stream
+npm http 304 https://registry.npmjs.org/async
+npm http 304 https://registry.npmjs.org/lru-cache
+npm http GET https://registry.npmjs.org/underscore
+npm http GET https://registry.npmjs.org/underscore.string
+npm http GET https://registry.npmjs.org/amdefine
+npm http GET https://registry.npmjs.org/has-color
+npm http GET https://registry.npmjs.org/ansi-styles
+npm http GET https://registry.npmjs.org/js-yaml
+npm http GET https://registry.npmjs.org/lodash
+npm http GET https://registry.npmjs.org/osenv/0.0.3
+npm http 304 https://registry.npmjs.org/sigmund
+npm http 304 https://registry.npmjs.org/qs
+npm http 304 https://registry.npmjs.org/proto-list
+npm http 304 https://registry.npmjs.org/ini
+npm http 304 https://registry.npmjs.org/assert-plus/0.1.2
+npm http 304 https://registry.npmjs.org/asn1/0.1.11
+npm http 304 https://registry.npmjs.org/ctype/0.5.2
+npm http 304 https://registry.npmjs.org/minimatch
+npm http 304 https://registry.npmjs.org/graceful-fs
+npm http 304 https://registry.npmjs.org/inherits
+npm WARN package.json assert-plus@0.1.2 No repository field.
+npm http GET https://registry.npmjs.org/rimraf
+npm WARN package.json ctype@0.5.2 No repository field.
+npm http 304 https://registry.npmjs.org/readable-stream
+npm http 304 https://registry.npmjs.org/match-stream/0.0.1
+npm http 304 https://registry.npmjs.org/binary
+npm http 304 https://registry.npmjs.org/setimmediate
+npm http 304 https://registry.npmjs.org/pullstream
+npm http GET https://registry.npmjs.org/mute-stream
+npm http 304 https://registry.npmjs.org/graceful-fs
+npm http 304 https://registry.npmjs.org/inherits
+npm http 304 https://registry.npmjs.org/wordwrap
+npm http 304 https://registry.npmjs.org/debug
+npm http 304 https://registry.npmjs.org/underscore
+npm http 304 https://registry.npmjs.org/underscore.string
+npm http 304 https://registry.npmjs.org/amdefine
+npm http 304 https://registry.npmjs.org/has-color
+npm http 304 https://registry.npmjs.org/ansi-styles
+npm http 304 https://registry.npmjs.org/js-yaml
+npm http GET https://registry.npmjs.org/ansi
+npm http 304 https://registry.npmjs.org/lodash
+npm http 304 https://registry.npmjs.org/osenv/0.0.3
+npm http 304 https://registry.npmjs.org/rimraf
+npm http 304 https://registry.npmjs.org/mute-stream
+npm http GET https://registry.npmjs.org/mkdirp/0.3.0
+npm http GET https://registry.npmjs.org/boom
+npm http GET https://registry.npmjs.org/cryptiles
+npm http GET https://registry.npmjs.org/sntp
+  CXX(target) Release/obj.target/bufferutil/src/bufferutil.o
+npm http GET https://registry.npmjs.org/hoek
+npm http GET https://registry.npmjs.org/slice-stream/0.0.0
+npm http GET https://registry.npmjs.org/over
+npm http GET https://registry.npmjs.org/delayed-stream/0.0.5
+  SOLINK_MODULE(target) Release/bufferutil.node
+npm http 304 https://registry.npmjs.org/ansi
+npm http GET https://registry.npmjs.org/buffers
+  SOLINK_MODULE(target) Release/bufferutil.node: Finished
+  CXX(target) Release/obj.target/validation/src/validation.o
+npm http 304 https://registry.npmjs.org/hoek
+npm http GET https://registry.npmjs.org/block-stream
+npm http GET https://registry.npmjs.org/chainsaw
+  SOLINK_MODULE(target) Release/validation.node
+npm http 304 https://registry.npmjs.org/slice-stream/0.0.0
+  SOLINK_MODULE(target) Release/validation.node: Finished
+npm http 304 https://registry.npmjs.org/cryptiles
+npm http 304 https://registry.npmjs.org/mkdirp/0.3.0
+npm http 304 https://registry.npmjs.org/sntp
+npm http 304 https://registry.npmjs.org/over
+npm http 304 https://registry.npmjs.org/boom
+npm http GET https://registry.npmjs.org/karma-jasmine
+npm http GET https://registry.npmjs.org/karma-requirejs
+npm http GET https://registry.npmjs.org/karma-chrome-launcher
+npm http GET https://registry.npmjs.org/karma-html2js-preprocessor
+npm http GET https://registry.npmjs.org/karma-firefox-launcher
+npm http GET https://registry.npmjs.org/karma-coffee-preprocessor
+npm http GET https://registry.npmjs.org/karma-script-launcher
+npm http GET https://registry.npmjs.org/karma-phantomjs-launcher
+npm http 304 https://registry.npmjs.org/delayed-stream/0.0.5
+npm http 304 https://registry.npmjs.org/buffers
+npm http 304 https://registry.npmjs.org/chainsaw
+npm http 304 https://registry.npmjs.org/block-stream
+npm http GET https://registry.npmjs.org/hawk
+npm http GET https://registry.npmjs.org/forever-agent
+npm http GET https://registry.npmjs.org/aws-sign
+npm http GET https://registry.npmjs.org/oauth-sign
+npm http GET https://registry.npmjs.org/tunnel-agent
+npm http GET https://registry.npmjs.org/http-signature
+npm http GET https://registry.npmjs.org/cookie-jar
+npm http GET https://registry.npmjs.org/node-uuid
+npm http GET https://registry.npmjs.org/mime
+npm http GET https://registry.npmjs.org/json-stringify-safe
+npm http GET https://registry.npmjs.org/form-data/0.0.8
+npm http GET https://registry.npmjs.org/argparse
+npm http GET https://registry.npmjs.org/esprima
+npm http GET https://registry.npmjs.org/commander/0.6.1
+npm http GET https://registry.npmjs.org/jade/0.26.3
+npm http GET https://registry.npmjs.org/growl
+npm http GET https://registry.npmjs.org/diff/1.0.2
+npm http GET https://registry.npmjs.org/glob/3.2.1
+npm http GET https://registry.npmjs.org/traverse
+npm http 304 https://registry.npmjs.org/karma-requirejs
+npm http 304 https://registry.npmjs.org/karma-firefox-launcher
+npm http 304 https://registry.npmjs.org/karma-html2js-preprocessor
+npm http 304 https://registry.npmjs.org/karma-jasmine
+npm http 304 https://registry.npmjs.org/karma-chrome-launcher
+
+> gifsicle@0.1.3 postinstall /Users/christophe/Documents/Conf/JavaScriptUsineLogicielle/Demo/06-Yo/node_modules/grunt-contrib-imagemin/node_modules/gifsicle
+> node lib/check.js
+
+npm http 304 https://registry.npmjs.org/karma-coffee-preprocessor
+npm http 304 https://registry.npmjs.org/karma-script-launcher
+npm http 304 https://registry.npmjs.org/karma-phantomjs-launcher
+npm http GET https://registry.npmjs.org/phantomjs
+npm http GET https://registry.npmjs.org/coffee-script/1.6.3
+npm http 304 https://registry.npmjs.org/oauth-sign
+npm http 304 https://registry.npmjs.org/forever-agent
+npm http 304 https://registry.npmjs.org/tunnel-agent
+npm http 304 https://registry.npmjs.org/hawk
+npm http 304 https://registry.npmjs.org/aws-sign
+npm http 304 https://registry.npmjs.org/http-signature
+npm http 304 https://registry.npmjs.org/node-uuid
+npm http 304 https://registry.npmjs.org/cookie-jar
+npm http 304 https://registry.npmjs.org/mime
+npm http 304 https://registry.npmjs.org/json-stringify-safe
+
+> optipng-bin@0.3.0 postinstall /Users/christophe/Documents/Conf/JavaScriptUsineLogicielle/Demo/06-Yo/node_modules/grunt-contrib-imagemin/node_modules/optipng-bin
+> node pre-build.js
+
+npm http 304 https://registry.npmjs.org/commander/0.6.1
+npm http 304 https://registry.npmjs.org/argparse
+npm http 304 https://registry.npmjs.org/esprima
+npm http 304 https://registry.npmjs.org/form-data/0.0.8
+npm http 304 https://registry.npmjs.org/jade/0.26.3
+npm http 304 https://registry.npmjs.org/diff/1.0.2
+npm http 304 https://registry.npmjs.org/traverse
+npm http 304 https://registry.npmjs.org/glob/3.2.1
+npm http 304 https://registry.npmjs.org/growl
+npm http GET https://registry.npmjs.org/ctype/0.5.2
+npm http GET https://registry.npmjs.org/assert-plus/0.1.2
+npm http GET https://registry.npmjs.org/asn1/0.1.11
+npm http 304 https://registry.npmjs.org/phantomjs
+npm http 304 https://registry.npmjs.org/coffee-script/1.6.3
+npm http GET https://registry.npmjs.org/npmconf/0.0.24
+npm http GET https://registry.npmjs.org/adm-zip/0.2.1
+npm http GET https://registry.npmjs.org/rimraf
+npm http GET https://registry.npmjs.org/which
+npm http GET https://registry.npmjs.org/kew
+npm http GET https://registry.npmjs.org/ncp/0.4.2
+npm http GET https://registry.npmjs.org/mkdirp/0.3.5
+npm http GET https://registry.npmjs.org/inherits
+npm http GET https://registry.npmjs.org/graceful-fs
+npm http GET https://registry.npmjs.org/minimatch
+npm http GET https://registry.npmjs.org/underscore
+npm http GET https://registry.npmjs.org/underscore.string
+npm http GET https://registry.npmjs.org/combined-stream
+Downloading gifsicle: 4%
+Downloading gifsicle: 100%
+  npm http 304 https://registry.npmjs.org/ctype/0.5.2
+npm http 304 https://registry.npmjs.org/asn1/0.1.11
+npm http 304 https://registry.npmjs.org/assert-plus/0.1.2
+
+  3 passing (326ms)
+
+✓ pre-build test passed successfully, skipping build...
+
+  3 passing (299ms)
+
+pre-build test passed successfully, skipping build...
+npm http 304 https://registry.npmjs.org/underscore
+npm http 304 https://registry.npmjs.org/underscore.string
+npm http 304 https://registry.npmjs.org/minimatch
+npm http 304 https://registry.npmjs.org/inherits
+npm http 304 https://registry.npmjs.org/adm-zip/0.2.1
+npm http 304 https://registry.npmjs.org/npmconf/0.0.24
+npm http 304 https://registry.npmjs.org/graceful-fs
+npm http 304 https://registry.npmjs.org/rimraf
+npm http 304 https://registry.npmjs.org/which
+npm http 304 https://registry.npmjs.org/kew
+npm http 304 https://registry.npmjs.org/combined-stream
+npm http GET https://registry.npmjs.org/sigmund
+npm http GET https://registry.npmjs.org/lru-cache
+npm http 304 https://registry.npmjs.org/ncp/0.4.2
+npm http 304 https://registry.npmjs.org/mkdirp/0.3.5
+npm http GET https://registry.npmjs.org/config-chain
+npm http GET https://registry.npmjs.org/osenv/0.0.3
+npm http GET https://registry.npmjs.org/nopt
+npm http GET https://registry.npmjs.org/ini
+npm http GET https://registry.npmjs.org/semver
+npm http GET https://registry.npmjs.org/once
+npm http 304 https://registry.npmjs.org/lru-cache
+npm http 304 https://registry.npmjs.org/sigmund
+
+> jpegtran-bin@0.2.0 postinstall /Users/christophe/Documents/Conf/JavaScriptUsineLogicielle/Demo/06-Yo/node_modules/grunt-contrib-imagemin/node_modules/jpegtran-bin
+> node pre-build.js
+
+
+> pngquant-bin@0.1.4 postinstall /Users/christophe/Documents/Conf/JavaScriptUsineLogicielle/Demo/06-Yo/node_modules/grunt-contrib-imagemin/node_modules/pngquant-bin
+> node lib/check.js
+
+npm http 304 https://registry.npmjs.org/ini
+npm http 304 https://registry.npmjs.org/osenv/0.0.3
+npm http 304 https://registry.npmjs.org/config-chain
+npm http 304 https://registry.npmjs.org/semver
+npm http 304 https://registry.npmjs.org/nopt
+npm http 304 https://registry.npmjs.org/once
+npm http GET https://registry.npmjs.org/abbrev
+npm http GET https://registry.npmjs.org/proto-list
+Downloading pngquant: 3%
+
+  3 passing (238ms)
+
+pre-build test passed successfully, skipping build...
+Downloading pngquant: 91%
+  npm http 304 https://registry.npmjs.org/proto-list
+npm http 304 https://registry.npmjs.org/abbrev
+
+> phantomjs@1.9.2-0 install /Users/christophe/Documents/Conf/JavaScriptUsineLogicielle/Demo/06-Yo/node_modules/karma-phantomjs-launcher/node_modules/phantomjs
+> node install.js
+
+
+  3 passing (547ms)
+
+✓ pre-build test passed successfully, skipping build...
+npm WARN package.json methods@0.0.1 No repository field.
+npm WARN package.json uid2@0.0.2 No repository field.
+npm WARN package.json policyfile@0.0.4 'repositories' (plural) Not supported.
+npm WARN package.json Please pick one as the 'repository' field
+connect-livereload@0.2.0 node_modules/connect-livereload
+
+grunt-rev@0.1.0 node_modules/grunt-rev
+
+grunt-usemin@0.1.12 node_modules/grunt-usemin
+
+grunt-contrib-concat@0.3.0 node_modules/grunt-contrib-concat
+
+grunt-contrib-copy@0.4.1 node_modules/grunt-contrib-copy
+
+grunt-concurrent@0.3.1 node_modules/grunt-concurrent
+└── lpad@0.1.0
+
+grunt-open@0.2.2 node_modules/grunt-open
+└── open@0.0.4
+
+grunt-contrib-compass@0.5.0 node_modules/grunt-contrib-compass
+├── dargs@0.1.0
+├── tmp@0.0.21
+└── async@0.2.9
+
+grunt-contrib-clean@0.5.0 node_modules/grunt-contrib-clean
+└── rimraf@2.2.2 (graceful-fs@2.0.1)
+
+time-grunt@0.1.1 node_modules/time-grunt
+├── ms@0.6.1
+├── text-table@0.1.1
+└── chalk@0.2.1 (ansi-styles@0.2.0, has-color@0.1.1)
+
+load-grunt-tasks@0.1.0 node_modules/load-grunt-tasks
+└── minimatch@0.2.12 (sigmund@1.0.0, lru-cache@2.3.1)
+
+grunt-contrib-htmlmin@0.1.3 node_modules/grunt-contrib-htmlmin
+├── html-minifier@0.5.4
+└── grunt-lib-contrib@0.6.1 (zlib-browserify@0.0.1)
+
+grunt-autoprefixer@0.2.20130806 node_modules/grunt-autoprefixer
+└── autoprefixer@0.7.20130824 (css-stringify@1.3.1, css-parse@1.5.3)
+
+grunt-contrib-coffee@0.7.0 node_modules/grunt-contrib-coffee
+└── coffee-script@1.6.3
+
+grunt-contrib-cssmin@0.6.1 node_modules/grunt-contrib-cssmin
+├── grunt-lib-contrib@0.6.1 (zlib-browserify@0.0.1)
+└── clean-css@1.0.12 (commander@1.3.2)
+
+grunt-contrib-jshint@0.6.4 node_modules/grunt-contrib-jshint
+└── jshint@2.1.10 (console-browserify@0.1.6, minimatch@0.2.12, underscore@1.4.4, shelljs@0.1.4, cli@0.4.5)
+
+grunt-contrib-connect@0.3.0 node_modules/grunt-contrib-connect
+└── connect@2.7.11 (fresh@0.1.0, cookie-signature@1.0.1, pause@0.0.1, qs@0.6.5, bytes@0.2.0, buffer-crc32@0.2.1, cookie@0.0.5, debug@0.7.2, formidable@1.0.14, send@0.1.1)
+
+grunt-ngmin@0.0.3 node_modules/grunt-ngmin
+└── ngmin@0.4.0 (astral@0.1.0, clone@0.1.10, commander@1.1.1, astral-angular-annotate@0.0.2, esprima@1.0.4, escodegen@0.0.27)
+
+grunt-contrib-uglify@0.2.4 node_modules/grunt-contrib-uglify
+├── grunt-lib-contrib@0.6.1 (zlib-browserify@0.0.1)
+└── uglify-js@2.4.0 (uglify-to-browserify@1.0.1, async@0.2.9, optimist@0.3.7, source-map@0.1.29)
+
+grunt@0.4.1 node_modules/grunt
+├── which@1.0.5
+├── dateformat@1.0.2-1.2.3
+├── eventemitter2@0.4.13
+├── colors@0.6.2
+├── hooker@0.2.3
+├── async@0.1.22
+├── rimraf@2.0.3 (graceful-fs@1.1.14)
+├── nopt@1.0.10 (abbrev@1.0.4)
+├── minimatch@0.2.12 (sigmund@1.0.0, lru-cache@2.3.1)
+├── glob@3.1.21 (inherits@1.0.0, graceful-fs@1.2.3)
+├── coffee-script@1.3.3
+├── underscore.string@2.2.1
+├── iconv-lite@0.2.11
+├── lodash@0.9.2
+├── js-yaml@2.0.5 (argparse@0.1.15, esprima@1.0.4)
+└── findup-sync@0.1.2 (lodash@1.0.1)
+
+grunt-svgmin@0.2.0 node_modules/grunt-svgmin
+├── filesize@1.8.0
+└── svgo@0.3.7 (colors@0.6.2, whet.extend@0.9.9, sax@0.5.5, coa@0.3.9, js-yaml@2.1.0)
+
+grunt-contrib-watch@0.5.3 node_modules/grunt-contrib-watch
+├── tiny-lr@0.0.4 (debug@0.7.2, faye-websocket@0.4.4, noptify@0.0.3, qs@0.5.6)
+└── gaze@0.4.1 (globule@0.1.0)
+
+grunt-google-cdn@0.2.2 node_modules/grunt-google-cdn
+├── google-cdn@0.1.4 (debug@0.7.2, semver@2.0.11)
+└── bower@0.9.2 (abbrev@1.0.4, stable@0.1.3, archy@0.0.2, colors@0.6.2, semver@1.1.4, nopt@2.0.0, tmp@0.0.21, async@0.2.9, mkdirp@0.3.5, rimraf@2.0.3, fstream@0.1.24, promptly@0.1.0, glob@3.1.21, rc@0.0.8, read-package-json@0.1.13, tar@0.1.18, request@2.11.4, hogan.js@2.0.0, unzip@0.1.7, lodash@1.0.1, update-notifier@0.1.5)
+
+grunt-contrib-imagemin@0.2.1 node_modules/grunt-contrib-imagemin
+├── filesize@1.10.0
+├── chalk@0.2.1 (ansi-styles@0.2.0, has-color@0.1.1)
+├── gifsicle@0.1.3 (which@1.0.5, request-progress@0.2.3, mkdirp@0.3.5, tar@0.1.18, request@2.25.0, mocha@1.12.1)
+├── optipng-bin@0.3.0 (which@1.0.5, mkdirp@0.3.5, tar@0.1.18, mocha@1.12.1, request@2.26.0)
+├── jpegtran-bin@0.2.0 (which@1.0.5, mkdirp@0.3.5, tar@0.1.18, request@2.26.0, mocha@1.12.1)
+└── pngquant-bin@0.1.4 (which@1.0.5, mkdirp@0.3.5, request-progress@0.2.3, tar@0.1.18, request@2.25.0, mocha@1.12.1)
+PhantomJS detected, but wrong version 1.9.0 @ /usr/local/bin/phantomjs.
+Download already available at /var/folders/t9/s3wwg8411w7gtsqqlx1hhwrw0000gn/T/phantomjs/phantomjs-1.9.2-macosx.zip
+Extracting zip contents
+Renaming extracted folder /var/folders/t9/s3wwg8411w7gtsqqlx1hhwrw0000gn/T/phantomjs/phantomjs-1.9.2-macosx -> /Users/christophe/Documents/Conf/JavaScriptUsineLogicielle/Demo/06-Yo/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/lib/phantom
+Writing location.js file
+Done. Phantomjs binary available at /Users/christophe/Documents/Conf/JavaScriptUsineLogicielle/Demo/06-Yo/node_modules/karma-phantomjs-launcher/node_modules/phantomjs/lib/phantom/bin/phantomjs
+npm WARN package.json dateformat@1.0.2-1.2.3 No repository field.
+npm WARN package.json ms@0.6.1 No repository field.
+npm WARN package.json css-stringify@1.3.1 No repository field.
+npm WARN package.json fresh@0.1.0 No repository field.
+npm WARN package.json faye-websocket@0.4.4 'repositories' (plural) Not supported.
+npm WARN package.json Please pick one as the 'repository' field
+npm WARN package.json growl@1.7.0 No repository field.
+npm WARN package.json assert-plus@0.1.2 No repository field.
+npm WARN package.json ctype@0.5.2 No repository field.
+karma-ng-scenario@0.1.0 node_modules/karma-ng-scenario
+
+grunt-karma@0.6.2 node_modules/grunt-karma
+└── optimist@0.6.0 (wordwrap@0.0.2, minimist@0.0.3)
+
+karma-script-launcher@0.1.0 node_modules/karma-script-launcher
+
+karma-firefox-launcher@0.1.0 node_modules/karma-firefox-launcher
+
+karma-chrome-launcher@0.1.0 node_modules/karma-chrome-launcher
+
+karma-html2js-preprocessor@0.1.0 node_modules/karma-html2js-preprocessor
+
+karma-jasmine@0.1.3 node_modules/karma-jasmine
+
+karma-requirejs@0.1.0 node_modules/karma-requirejs
+
+karma-coffee-preprocessor@0.1.0 node_modules/karma-coffee-preprocessor
+└── coffee-script@1.6.3
+
+karma-phantomjs-launcher@0.1.0 node_modules/karma-phantomjs-launcher
+└── phantomjs@1.9.2-0 (which@1.0.5, kew@0.1.7, ncp@0.4.2, mkdirp@0.3.5, rimraf@2.0.3, adm-zip@0.2.1, npmconf@0.0.24)
+
+karma@0.10.2 node_modules/karma
+├── di@0.0.1
+├── rimraf@2.1.4
+├── colors@0.6.0-1
+├── graceful-fs@1.2.3
+├── chokidar@0.6.3
+├── mime@1.2.11
+├── q@0.9.7
+├── optimist@0.3.7 (wordwrap@0.0.2)
+├── coffee-script@1.6.3
+├── minimatch@0.2.12 (sigmund@1.0.0, lru-cache@2.3.1)
+├── glob@3.1.21 (inherits@1.0.0)
+├── lodash@1.1.1
+├── useragent@2.0.7 (lru-cache@2.2.4)
+├── log4js@0.6.8 (dequeue@1.0.3, semver@1.1.4, async@0.1.15, readable-stream@1.0.17)
+├── connect@2.8.8 (uid2@0.0.2, methods@0.0.1, fresh@0.2.0, pause@0.0.1, cookie-signature@1.0.1, qs@0.6.5, bytes@0.2.0, buffer-crc32@0.2.1, cookie@0.1.0, debug@0.7.2, formidable@1.0.14, send@0.1.4)
+├── http-proxy@0.10.3 (pkginfo@0.2.3, utile@0.1.7)
+└── socket.io@0.9.16 (base64id@0.1.0, policyfile@0.0.4, redis@0.7.3, socket.io-client@0.9.16)
+
+karma-ng-html2js-preprocessor@0.1.0 node_modules/karma-ng-html2js-preprocessor
+
+Bye from us! Chat soon.
+
+            Addy Osmani
+          Sindre Sorhus
+        Brian Ford
+     Eric Bidelman
+              Paul Irish
+     Mickael Daniel
+          Pasca1 Hartig
+      Stephen S.wchuk
+    Frederick R0s
+
+MBP-de-Christophe:06-Yo christophe$
